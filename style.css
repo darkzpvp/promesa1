@@ -25,22 +25,22 @@ html {
 }
 .linea{
     border-bottom: 3px solid #ffffff;
-    margin: 0 auto; /* Centra la línea horizontalmente */
+    margin: 0 auto;
     margin-bottom: 10px;
     width: 30%;
 }
 .buttons {
     display: inline-flex;
-    flex-direction: column; /* Los botones estarán en una fila */
+    flex-direction: column; 
 }
 @media (min-width: 768px) {
     .buttons {
         display: flex;
-        flex-direction: row; /* Los botones estarán en una fila */
+        flex-direction: row; 
     } 
 }
 .resultado {
-    padding-top: 2rem; /* Ajusta el padding según tus preferencias */
+    padding-top: 2rem;
 }
 .boton{
     font-family: Arial, Helvetica, sans-serif;
