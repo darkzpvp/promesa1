@@ -80,9 +80,9 @@ function cargarAPI() {
         <strong>ID:</strong> ${datos.id}<br>
         <strong>Ancho:</strong> ${datos.width}<br>
         <strong>Alto:</strong> ${datos.height}<br>
-        ${nuevoElemento2.outerHTML}<br> 
         <strong>Nombre de archivo:</strong> ${datos.filename}<br>
         <strong>Formato:</strong> ${datos.format}<br>
+        ${nuevoElemento2.outerHTML}<br> 
       `;//OuterHTML lo uso para que me imprima el HTML tal y como es, si no no aparecería el href ni el contenido
 
       resultado.appendChild(nuevoElemento);
